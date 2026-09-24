@@ -56,7 +56,7 @@ function TimingLine({ timings }: { timings: AnswerTimings }) {
     ['expansão da pergunta', timings.expansionMs],
     ['busca dos trechos', timings.retrievalMs],
     ['geração da resposta', timings.generationMs],
-    ['busca extra pedida pelo modelo', timings.searchMs],
+    ['busca adicional pedida pelo modelo', timings.searchMs],
     ['revisão (2ª chamada)', timings.repairMs],
   ];
   const known = stages.reduce((sum, [, v]) => sum + (v ?? 0), 0);
@@ -199,7 +199,7 @@ export function AssistantMessage({ message, streaming, isLast, onRegenerate }: P
           </div>
         )}
         {!streaming && view.status?.extraSearches && view.status.extraSearches.length > 0 && (
-          <p className="text-xs text-muted-foreground">📚 busca extra pedida pelo modelo: {view.status.extraSearches.map((s) => `“${s}”`).join(', ')}</p>
+          <p className="text-xs text-muted-foreground">📚 busca adicional pedida pelo modelo: {view.status.extraSearches.map((s) => `“${s}”`).join(', ')}</p>
         )}
 
         {!streaming && view.warnings.map((w, i) => (

@@ -117,7 +117,7 @@ function PromptViewer({ version }: { version: string }) {
       <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
         <h3 className="text-sm font-semibold">Prompt do sistema, na íntegra</h3>
         <div className="flex gap-1" role="tablist">
-          {([[version, 'RAG (algoritmo próprio)'], [baseline, 'Documento inteiro']] as const).map(([n, label]) => (
+          {([[version, 'Configurações com recuperação'], [baseline, 'Documento inteiro']] as const).map(([n, label]) => (
             <button
               key={n}
               type="button"

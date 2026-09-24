@@ -51,7 +51,7 @@ export const METRICS: MetricDef[] = [
   },
   {
     key: 'unreferencedRate', label: 'Informação sem referência ou inválida', kind: 'rate', good: false,
-    hint: 'Respostas em que o modelo escreveu algo sem referência (bloco sem citação ou valor que não consta dos trechos citados) ou citou um rótulo inventado. Nos braços sem gate isso chegou assim ao usuário. No algoritmo próprio (gate strict) nada disso é entregue — o gate ajusta a resposta antes; o número em itálico é quanto ele ajustou.',
+    hint: 'Respostas em que o modelo escreveu algo sem referência (bloco sem citação ou valor que não consta dos trechos citados) ou citou um rótulo inventado. Nos braços sem gate isso chegou assim ao usuário. Nas configurações com gate strict (híbrida e com busca adicional) nada disso é entregue — o gate ajusta a resposta antes; o número em itálico é quanto ele ajustou.',
     detail: {
       label: (policy) => (policy === 'strict' ? 'respostas ajustadas pelo gate (informação sem referência ou citação inventada)' : 'respostas entregues com informação sem referência ou citação inventada'),
       pick: (c) => c.grounded === false || c.invalidLabels > 0,
@@ -71,7 +71,7 @@ export const METRICS: MetricDef[] = [
   },
   {
     key: 'meanLatencyMs', label: 'Latência média', kind: 'ms', good: false,
-    hint: 'Tempo médio por resposta (busca, geração, reparo e busca extra), SEM a subida do processo do CLI do Claude Code — um processo por chamada, ≈ 1,6 s, que não existe com chave própria ou modelo local. A subida descontada aparece ao lado; nas execuções anteriores à medição (16/09) ela é estimada pelo número de chamadas.',
+    hint: 'Tempo médio por resposta (busca, geração, reparo e busca adicional), sem a chamada de expansão de consulta e sem a subida do processo do CLI do Claude Code — um processo por chamada, ≈ 1,6 s, que não existe com chave própria ou modelo local. A subida descontada aparece ao lado; nas execuções anteriores à medição (16/09) ela é estimada pelo número de chamadas.',
   },
   {
     key: 'meanOverheadMs', label: 'Subida do CLI (descontada)', kind: 'ms', good: null,

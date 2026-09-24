@@ -542,7 +542,7 @@ const ASK_BEFORE_ABSTAIN =
   'Você respondeu que algo "não consta" sem ter pedido busca extra. Antes de aceitar isso, escreva SOMENTE linhas <buscar>termos</buscar> (no máximo 3) com as palavras que o edital usaria para o que faltou — nome do item, seção, anexo ou o termo jurídico/administrativo equivalente (ex.: exigência de habilitação, comprovação, registro). Se realmente não houver o que buscar, responda apenas: NADA.';
 
 /**
- * Modo think: abstenção (total ou parcial) sem nenhuma busca extra é a falha de recuperação típica — o item existe e o modelo
+ * Busca adicional: abstenção (total ou parcial) sem nenhuma busca extra é a falha de recuperação típica — o item existe e o modelo
  * desistiu. Antes de aceitar, pede os termos que ele procuraria; sem termos, a abstenção fica como está.
  */
 async function askSearchesBeforeAbstain(model: LanguageModel, llm: LlmConfig, question: string, answer: string): Promise<{ queries: string[]; usage: LanguageModelUsage | undefined; overheadMs: number }> {
@@ -565,7 +565,7 @@ type GenerationEvents = { onStage?: (stage: AnswerStage) => void; onContext?: (p
 type SearchRounds = { prepared: Prepared; text: string; extraSearches: string[]; searchMs: number; overheadMs: number };
 
 /**
- * Busca extra (modo think): o modelo pediu trechos em vez de responder — busca, acrescenta ao contexto e gera de novo (até 2
+ * Busca adicional: o modelo pediu trechos em vez de responder — busca, acrescenta ao contexto e gera de novo (até 2
  * rodadas). Abstenção sem nenhuma busca é cobrada antes de ser aceita.
  */
 async function extraSearchRounds(input: AnswerInput, initial: Prepared, firstText: string, llm: LlmConfig, first: FirstCall, events: GenerationEvents, usage: Usage): Promise<SearchRounds> {

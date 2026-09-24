@@ -35,8 +35,8 @@ type Column = { arm: EvalArmId; label: string; note: string; ours?: boolean };
 const COLUMNS: Column[] = [
   { arm: 'full_context', label: 'Doc. inteiro', note: 'edital completo no contexto' },
   { arm: 'rag_dense', label: 'RAG', note: 'busca vetorial clássica' },
-  { arm: 'rag_hybrid', label: 'Nosso algoritmo', note: 'híbrido + expansão + gate', ours: true },
-  { arm: 'rag_search', label: 'Nosso · think', note: 'com busca extra do modelo', ours: true },
+  { arm: 'rag_hybrid', label: 'Configuração híbrida', note: 'híbrido + expansão + gate', ours: true },
+  { arm: 'rag_search', label: 'Com busca adicional', note: 'buscas pedidas pelo modelo', ours: true },
 ];
 
 const scored = (cases: ConferredCase[]): ConferredCase[] => cases.filter((c) => c.status !== 'error');

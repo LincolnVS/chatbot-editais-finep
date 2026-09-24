@@ -1,4 +1,4 @@
-modelo,repeticao,edital,perguntas,metrica,Doc. inteiro,RAG vetorial,Algoritmo próprio,Algoritmo think
+modelo,repeticao,edital,perguntas,metrica,Doc. inteiro,RAG vetorial,Configuração híbrida,Configuração com busca adicional
 Claude Sonnet 5,1,Todos,45,Acurácia sem referência,0.9778,0.8,0.9111,1
 Claude Sonnet 5,1,Todos,45,Acurácia com referência,0.7333,0.4889,0.8889,0.9111
 Claude Sonnet 5,1,Todos,45,Valores esperados (automático),1,0.8,0.9333,1

@@ -24,7 +24,7 @@ PDF ─► deduplicação por SHA-256
     ─► glossário extraído do próprio edital (definições numeradas, siglas, "entende-se por")
     ─► SQLite único: documentos + FTS5/BM25 + sqlite-vec
 
-RESPOSTA (algoritmo proposto)
+RESPOSTA (configuração híbrida)
 pergunta + histórico + escopo
     ─► expansão de consulta: 4 reformulações pelo LLM + formas equivalentes do glossário do edital
     ─► BM25 + busca vetorial (30 candidatos por índice, para a pergunta e cada variante)
@@ -37,7 +37,7 @@ pergunta + histórico + escopo
     ─► resposta com referências clicáveis
 ```
 
-Na variante **think**, o modelo recebe os mesmos trechos e pode pedir até 3 buscas próprias por rodada, com até 6 trechos cada e até 10 mil caracteres extras, em no máximo 2 rodadas.
+Na **configuração com busca adicional**, o modelo recebe os mesmos trechos e pode pedir até 3 buscas próprias por rodada, com até 6 trechos cada e até 10 mil caracteres extras, em no máximo 2 rodadas.
 
 ### Configurações comparadas
 
@@ -45,8 +45,8 @@ Na variante **think**, o modelo recebe os mesmos trechos e pode pedir até 3 bus
 |---|---|---|
 | Documento inteiro | `full_context` | Edital e anexos completos no contexto, sem recuperação. O gate só mede. |
 | RAG vetorial | `rag_dense` | 12 trechos mais parecidos por cosseno, com expansão folha→pai. Sem BM25, sem expansão, sem glossário. |
-| Algoritmo proposto | `rag_hybrid` | Busca híbrida, expansão de consulta, glossário do edital, RRF com bônus de identificadores e gate com reparo. |
-| Algoritmo proposto + think | `rag_search` | O anterior, mais as buscas adicionais pedidas pelo modelo. |
+| Configuração híbrida | `rag_hybrid` | Busca híbrida, expansão de consulta, glossário do edital, RRF com bônus de identificadores e gate com reparo. |
+| Configuração com busca adicional | `rag_search` | O anterior, mais as buscas adicionais pedidas pelo modelo. |
 
 O código mantém opções testadas durante o desenvolvimento e desligadas nas quatro configurações avaliadas: reranqueamento com cross-encoder, expansão por pseudo-relevância (PRF), glossário escrito à mão, glossário gerado por LLM e glossário compartilhado entre editais. O harness também tem configurações intermediárias, usadas para comparar os componentes um a um (`rag_bm25`, `rag_leaves`, `rag_no_gate`, `rag_expand`, `rag_top4`), e um controle sem documento (`closed_book`). Nenhuma delas entra nos resultados publicados, exceto as variações de glossário medidas no laboratório de recuperação (`npm run eval:retrieval`).
 
@@ -58,8 +58,8 @@ O código mantém opções testadas durante o desenvolvimento e desligadas nas q
 |---|---:|---:|---:|---:|---:|
 | Documento inteiro | 98% | 72% | 90% | 58% | 26,4k |
 | RAG vetorial | 79% | 46% | 72% | 52% | 8,4k |
-| Algoritmo proposto | 90% | 87% | 89% | 86% | 17,2k |
-| Algoritmo proposto + think | 98% | 93% | 92% | 92% | 24,3k |
+| Configuração híbrida | 90% | 87% | 89% | 86% | 17,2k |
+| Configuração com busca adicional | 98% | 93% | 92% | 92% | 24,3k |
 
 - **Acurácia sem referência:** a resposta contém os valores esperados e não afirma nada errado, mesmo sem citar.
 - **Acurácia com referência:** está certa e cada afirmação está apoiada em um trecho citado.

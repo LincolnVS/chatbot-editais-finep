@@ -16,7 +16,7 @@ import { currentChoiceId, llmChoices, llmHeaders, requestLlmSettings, setLlmSett
 import { AssistantMessage } from './AssistantMessage';
 import { Thinking, thinkingStep } from './Thinking';
 
-/** `rag_search` ("think") = algoritmo próprio em que o modelo pode pedir buscas extras antes de responder (mais lento). */
+/** `rag_search` = configuração com busca adicional: o modelo pode pedir buscas no edital antes de responder (mais lento). */
 export type ChatMode = 'rag' | 'rag_search' | 'full_context';
 
 type Props = {
@@ -191,9 +191,9 @@ function ChatSession({ workspaceId, sessionKey, conversationId, onConversationCr
           </PromptInputBody>
           <PromptInputFooter>
             <PromptInputTools>
-              <NativeSelect size="sm" value={mode} onChange={(e) => onModeChange(e.target.value as ChatMode)} disabled={busy} className="w-auto shrink-0" aria-label="Modo" title={mode === 'rag_search' ? 'think: o modelo pode pedir buscas extras no edital antes de responder (mais lento)' : undefined}>
-                <NativeSelectOption value="rag">Algoritmo próprio</NativeSelectOption>
-                <NativeSelectOption value="rag_search">Algoritmo próprio · think</NativeSelectOption>
+              <NativeSelect size="sm" value={mode} onChange={(e) => onModeChange(e.target.value as ChatMode)} disabled={busy} className="w-auto shrink-0" aria-label="Modo" title={mode === 'rag_search' ? 'Busca adicional: o modelo pode pedir buscas no edital antes de responder (mais lento)' : undefined}>
+                <NativeSelectOption value="rag">Configuração híbrida</NativeSelectOption>
+                <NativeSelectOption value="rag_search">Com busca adicional</NativeSelectOption>
                 <NativeSelectOption value="full_context">Doc. inteiro</NativeSelectOption>
               </NativeSelect>
               <LlmSelect disabled={busy} />
