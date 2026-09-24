@@ -1,0 +1,217 @@
+modelo,repeticao,edital,perguntas,metrica,Doc. inteiro,RAG vetorial,Algoritmo próprio,Algoritmo think
+Claude Sonnet 5,1,Todos,45,Acurácia sem referência,0.9778,0.8,0.9111,1
+Claude Sonnet 5,1,Todos,45,Acurácia com referência,0.7333,0.4889,0.8889,0.9111
+Claude Sonnet 5,1,Todos,45,Valores esperados (automático),1,0.8,0.9333,1
+Claude Sonnet 5,1,Todos,45,Respostas totalmente referenciadas,0.7556,0.5778,0.9333,0.9111
+Claude Sonnet 5,1,Todos,45,Item esperado recuperado,1,0.7674,0.9535,1
+Claude Sonnet 5,1,Todos,45,Citou o item esperado,1,0.7674,0.9535,1
+Claude Sonnet 5,1,Todos,45,Tokens de entrada por pergunta,25647.1556,7737.6667,15644.0444,21846.3556
+Claude Sonnet 5,1,Todos,45,Tokens totais por pergunta,26383.8444,8360.8222,16905.7778,23378.0889
+Claude Sonnet 5,1,Todos,45,Latência média (s),7.4877,6.5222,8.9272,13.9329
+Claude Sonnet 5,1,Subvenção Regional,15,Acurácia sem referência,0.9333,0.8667,1,1
+Claude Sonnet 5,1,Subvenção Regional,15,Acurácia com referência,0.7333,0.6,1,0.9333
+Claude Sonnet 5,1,Subvenção Regional,15,Valores esperados (automático),1,0.8667,1,1
+Claude Sonnet 5,1,Subvenção Regional,15,Respostas totalmente referenciadas,0.8,0.7333,1,0.9333
+Claude Sonnet 5,1,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Sonnet 5,1,Subvenção Regional,15,Citou o item esperado,1,0.7857,1,1
+Claude Sonnet 5,1,Subvenção Regional,15,Tokens de entrada por pergunta,22105.5333,9164.2667,17320.1333,22424.5333
+Claude Sonnet 5,1,Subvenção Regional,15,Tokens totais por pergunta,22895.3333,9881.2667,18614.5333,24108.3333
+Claude Sonnet 5,1,Subvenção Regional,15,Latência média (s),8.2393,7.7039,8.85,15.0466
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,1,0.8,0.8,1
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.7333,0.4,0.8,0.8667
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),1,0.8,0.8,1
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.7333,0.4667,0.8667,0.8667
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,0.8667,1
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,1,0.7333,0.8667,1
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,25809.6667,8796.5333,16600.6,21681.2
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,26506.2667,9500.3333,17944.4667,23188.5333
+Claude Sonnet 5,1,MIB R2 — Tecnologias Digitais,15,Latência média (s),7.0071,6.9302,9.9442,13.5826
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,1,0.7333,0.9333,1
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.7333,0.4667,0.8667,0.9333
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),1,0.7333,1,1
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.7333,0.5333,0.9333,0.9333
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,1,1
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,1,0.7857,1,1
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,29026.2667,5252.2,13011.4,21433.3333
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,29749.9333,5700.8667,14158.3333,22837.4
+Claude Sonnet 5,1,Agricultura Familiar para ICTs 2026,15,Latência média (s),7.2167,4.9326,7.9873,13.1694
+Claude Sonnet 5,2,Todos,45,Acurácia sem referência,0.9778,0.7778,0.8667,0.9778
+Claude Sonnet 5,2,Todos,45,Acurácia com referência,0.6889,0.4,0.8667,0.9556
+Claude Sonnet 5,2,Todos,45,Valores esperados (automático),1,0.7778,0.8889,0.9778
+Claude Sonnet 5,2,Todos,45,Respostas totalmente referenciadas,0.7111,0.5111,0.9778,0.9556
+Claude Sonnet 5,2,Todos,45,Item esperado recuperado,1,0.7674,0.907,0.9767
+Claude Sonnet 5,2,Todos,45,Citou o item esperado,1,0.7674,0.907,0.9767
+Claude Sonnet 5,2,Todos,45,Tokens de entrada por pergunta,25647.4889,7737.4444,16080.2667,24297.6667
+Claude Sonnet 5,2,Todos,45,Tokens totais por pergunta,26359.9111,8361.5556,17317.3778,25998.7333
+Claude Sonnet 5,2,Todos,45,Latência média (s),7.0938,6.2649,10.1172,16.1182
+Claude Sonnet 5,2,Subvenção Regional,15,Acurácia sem referência,1,0.8667,0.9333,1
+Claude Sonnet 5,2,Subvenção Regional,15,Acurácia com referência,0.6,0.3333,0.9333,1
+Claude Sonnet 5,2,Subvenção Regional,15,Valores esperados (automático),1,0.8667,1,1
+Claude Sonnet 5,2,Subvenção Regional,15,Respostas totalmente referenciadas,0.6,0.4667,1,1
+Claude Sonnet 5,2,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Sonnet 5,2,Subvenção Regional,15,Citou o item esperado,1,0.7857,1,1
+Claude Sonnet 5,2,Subvenção Regional,15,Tokens de entrada por pergunta,22105.4667,9164.2667,15945.2,25903.4
+Claude Sonnet 5,2,Subvenção Regional,15,Tokens totais por pergunta,22829.2667,9871.0667,17116.2,27712.4
+Claude Sonnet 5,2,Subvenção Regional,15,Latência média (s),7.0995,7.5043,9.2583,16.7805
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,0.9333,0.8,0.8667,1
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.8667,0.4667,0.8667,1
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),1,0.8,0.8667,1
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.9333,0.5333,0.9333,1
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,0.8,0.9333
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,1,0.7333,0.8,0.9333
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,25810.0667,8796.4667,17844.6667,26378.7333
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,26536.2,9522.2667,19196.4,28169.4667
+Claude Sonnet 5,2,MIB R2 — Tecnologias Digitais,15,Latência média (s),6.9533,6.6955,11.3173,17.1689
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,1,0.6667,0.8,0.9333
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.6,0.4,0.8,0.8667
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),1,0.6667,0.8,0.9333
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.6,0.5333,1,0.8667
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,0.9286,1
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,1,0.7857,0.9286,1
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,29026.9333,5251.6,14450.9333,20610.8667
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,29714.2667,5691.3333,15639.5333,22114.3333
+Claude Sonnet 5,2,Agricultura Familiar para ICTs 2026,15,Latência média (s),7.2285,4.5949,9.7759,14.4051
+Claude Sonnet 5,3,Todos,45,Acurácia sem referência,0.9778,0.8,0.9333,0.9556
+Claude Sonnet 5,3,Todos,45,Acurácia com referência,0.7333,0.4889,0.8444,0.9333
+Claude Sonnet 5,3,Todos,45,Valores esperados (automático),1,0.8,0.9556,0.9556
+Claude Sonnet 5,3,Todos,45,Respostas totalmente referenciadas,0.7333,0.5556,0.9111,0.9778
+Claude Sonnet 5,3,Todos,45,Item esperado recuperado,1,0.7674,0.9767,0.9767
+Claude Sonnet 5,3,Todos,45,Citou o item esperado,1,0.7674,0.9767,0.9767
+Claude Sonnet 5,3,Todos,45,Tokens de entrada por pergunta,25647.4,7737.4222,16092.4667,21934.6889
+Claude Sonnet 5,3,Todos,45,Tokens totais por pergunta,26376.3778,8356,17286.7111,23482.6889
+Claude Sonnet 5,3,Todos,45,Latência média (s),6.9635,6.8155,8.1809,13.4883
+Claude Sonnet 5,3,Subvenção Regional,15,Acurácia sem referência,1,0.8667,0.9333,1
+Claude Sonnet 5,3,Subvenção Regional,15,Acurácia com referência,0.7333,0.4,0.8667,0.9333
+Claude Sonnet 5,3,Subvenção Regional,15,Valores esperados (automático),1,0.8667,1,1
+Claude Sonnet 5,3,Subvenção Regional,15,Respostas totalmente referenciadas,0.7333,0.4667,0.9333,0.9333
+Claude Sonnet 5,3,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Sonnet 5,3,Subvenção Regional,15,Citou o item esperado,1,0.7857,1,1
+Claude Sonnet 5,3,Subvenção Regional,15,Tokens de entrada por pergunta,22105.6667,9164.2,17687.5333,23874.1333
+Claude Sonnet 5,3,Subvenção Regional,15,Tokens totais por pergunta,22856.8,9844.2,18993.7333,25565.8
+Claude Sonnet 5,3,Subvenção Regional,15,Latência média (s),6.9904,7.4813,8.5915,14.8433
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,1,0.8,0.8667,0.8667
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.8,0.5333,0.8,0.8667
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),1,0.8,0.8667,0.8667
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.8,0.6,0.9333,1
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,0.9333,0.9333
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,1,0.7333,0.9333,0.9333
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,25809.7333,8796.6667,16961,21087.8667
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,26516.5333,9495.8,18179.3333,22647.8
+Claude Sonnet 5,3,MIB R2 — Tecnologias Digitais,15,Latência média (s),6.7285,7.5534,8.2249,13.5707
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,0.9333,0.7333,1,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.6667,0.5333,0.8667,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),1,0.7333,1,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.6667,0.6,0.8667,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,1,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,1,0.7857,1,1
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,29026.8,5251.4,13628.8667,20842.0667
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,29755.8,5728,14687.0667,22234.4667
+Claude Sonnet 5,3,Agricultura Familiar para ICTs 2026,15,Latência média (s),7.1716,5.4119,7.7263,12.0509
+Claude Haiku 4.5,1,Todos,45,Acurácia sem referência,0.8889,0.7111,0.8889,0.9111
+Claude Haiku 4.5,1,Todos,45,Acurácia com referência,0.5778,0.5333,0.8889,0.9111
+Claude Haiku 4.5,1,Todos,45,Valores esperados (automático),0.9778,0.7556,0.9556,0.9333
+Claude Haiku 4.5,1,Todos,45,Respostas totalmente referenciadas,0.6444,0.7111,1,1
+Claude Haiku 4.5,1,Todos,45,Item esperado recuperado,1,0.7674,0.9767,0.9767
+Claude Haiku 4.5,1,Todos,45,Citou o item esperado,0.9535,0.7674,0.9302,0.9535
+Claude Haiku 4.5,1,Todos,45,Tokens de entrada por pergunta,20021.0444,5947.5778,11546.3111,14955.2667
+Claude Haiku 4.5,1,Todos,45,Tokens totais por pergunta,21312.0667,7295.6667,16382.2444,20388.4444
+Claude Haiku 4.5,1,Todos,45,Latência média (s),12.8024,13.2993,21.4336,28.7816
+Claude Haiku 4.5,1,Subvenção Regional,15,Acurácia sem referência,0.8667,0.7333,0.9333,1
+Claude Haiku 4.5,1,Subvenção Regional,15,Acurácia com referência,0.5333,0.6,0.9333,1
+Claude Haiku 4.5,1,Subvenção Regional,15,Valores esperados (automático),1,0.8,1,1
+Claude Haiku 4.5,1,Subvenção Regional,15,Respostas totalmente referenciadas,0.6667,0.7333,1,1
+Claude Haiku 4.5,1,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,1,Subvenção Regional,15,Citou o item esperado,1,0.7857,0.9286,0.9286
+Claude Haiku 4.5,1,Subvenção Regional,15,Tokens de entrada por pergunta,17198.2667,7027.4,12584.3333,12978.2667
+Claude Haiku 4.5,1,Subvenção Regional,15,Tokens totais por pergunta,18489,8687.4667,17787.1333,17057.5333
+Claude Haiku 4.5,1,Subvenção Regional,15,Latência média (s),12.7725,16.2871,26.8455,19.0264
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,0.8667,0.7333,0.8,0.8667
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.6,0.5333,0.8,0.8667
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),0.9333,0.8,0.8667,0.8667
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.6667,0.7333,1,1
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,0.9333,0.9333
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,0.8667,0.7333,0.8667,0.9333
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,20145.2,6763.8,11244.9333,16308.4
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,21381.5333,8145.4,15276.9333,22293.8
+Claude Haiku 4.5,1,MIB R2 — Tecnologias Digitais,15,Latência média (s),12.2823,13.5774,13.6173,32.0451
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,0.9333,0.6667,0.9333,0.8667
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.6,0.4667,0.9333,0.8667
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),1,0.6667,1,0.9333
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.6,0.6667,1,1
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,1,0.7857,1,1
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,22719.6667,4051.5333,10809.6667,15579.1333
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,24065.6667,5054.1333,16082.6667,21814
+Claude Haiku 4.5,1,Agricultura Familiar para ICTs 2026,15,Latência média (s),13.3522,10.0335,23.8381,35.2731
+Claude Haiku 4.5,2,Todos,45,Acurácia sem referência,0.8889,0.7333,0.8444,0.8667
+Claude Haiku 4.5,2,Todos,45,Acurácia com referência,0.5333,0.5111,0.7556,0.8667
+Claude Haiku 4.5,2,Todos,45,Valores esperados (automático),0.9111,0.7556,0.8889,0.9111
+Claude Haiku 4.5,2,Todos,45,Respostas totalmente referenciadas,0.6,0.6889,0.9111,0.9556
+Claude Haiku 4.5,2,Todos,45,Item esperado recuperado,1,0.7674,0.9535,0.9535
+Claude Haiku 4.5,2,Todos,45,Citou o item esperado,0.907,0.7674,0.907,0.9535
+Claude Haiku 4.5,2,Todos,45,Tokens de entrada por pergunta,20020.9333,5947.5111,11563.4222,14319.5333
+Claude Haiku 4.5,2,Todos,45,Tokens totais por pergunta,21344.9556,7321.3111,16698.9556,19524.1333
+Claude Haiku 4.5,2,Todos,45,Latência média (s),13.7297,13.4059,21.9571,25.004
+Claude Haiku 4.5,2,Subvenção Regional,15,Acurácia sem referência,1,0.8,0.8667,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Acurácia com referência,0.6667,0.6,0.8,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Valores esperados (automático),1,0.8667,1,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Respostas totalmente referenciadas,0.6667,0.6667,0.9333,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Citou o item esperado,0.9286,0.7857,1,1
+Claude Haiku 4.5,2,Subvenção Regional,15,Tokens de entrada por pergunta,17198.4,7027.4,12726.2,13187
+Claude Haiku 4.5,2,Subvenção Regional,15,Tokens totais por pergunta,18696.8,8842.5333,18756.6,18145.5333
+Claude Haiku 4.5,2,Subvenção Regional,15,Latência média (s),14.9429,17.3553,29.1581,22.5291
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,0.8,0.8,0.8,0.6667
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.4,0.4667,0.8,0.6667
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),0.8,0.8,0.8,0.8
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.4667,0.6,1,0.9333
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,0.8667,0.8667
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,0.8667,0.7333,0.8,0.8667
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,20145.2667,6763.6,11761.8,14397.8667
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,21300.4,8082.2667,17283.4667,20371.2
+Claude Haiku 4.5,2,MIB R2 — Tecnologias Digitais,15,Latência média (s),11.899,12.8601,19.3419,26.0181
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,0.8667,0.6,0.8667,0.9333
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.5333,0.4667,0.6667,0.9333
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),0.9333,0.6,0.8667,0.9333
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.6667,0.8,0.8,0.9333
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,0.9286,0.7857,0.9286,1
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,22719.1333,4051.5333,10202.2667,15373.7333
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,24037.6667,5039.1333,14056.8,20055.6667
+Claude Haiku 4.5,2,Agricultura Familiar para ICTs 2026,15,Latência média (s),14.3472,10.0024,17.3714,26.4647
+Claude Haiku 4.5,3,Todos,45,Acurácia sem referência,0.9111,0.7111,0.9333,0.9778
+Claude Haiku 4.5,3,Todos,45,Acurácia com referência,0.6222,0.5111,0.9333,0.9778
+Claude Haiku 4.5,3,Todos,45,Valores esperados (automático),0.9778,0.7556,0.9556,0.9778
+Claude Haiku 4.5,3,Todos,45,Respostas totalmente referenciadas,0.6444,0.6889,1,1
+Claude Haiku 4.5,3,Todos,45,Item esperado recuperado,1,0.7674,1,1
+Claude Haiku 4.5,3,Todos,45,Citou o item esperado,0.9535,0.7442,0.9535,1
+Claude Haiku 4.5,3,Todos,45,Tokens de entrada por pergunta,20020.8,5947.3778,11924.2889,13458.8444
+Claude Haiku 4.5,3,Todos,45,Tokens totais por pergunta,21474.2889,7101.0889,17476.2222,19156.7556
+Claude Haiku 4.5,3,Todos,45,Latência média (s),14.5969,12.0573,22.6721,25.9408
+Claude Haiku 4.5,3,Subvenção Regional,15,Acurácia sem referência,0.9333,0.8,0.9333,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Acurácia com referência,0.7333,0.6,0.9333,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Valores esperados (automático),1,0.8667,1,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Respostas totalmente referenciadas,0.7333,0.8,1,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Citou o item esperado,0.9286,0.7857,0.9286,1
+Claude Haiku 4.5,3,Subvenção Regional,15,Tokens de entrada por pergunta,17197.7333,7027.3333,11149.8667,12039.9333
+Claude Haiku 4.5,3,Subvenção Regional,15,Tokens totais por pergunta,18667.5333,8357.1333,17617.8667,18541.4667
+Claude Haiku 4.5,3,Subvenção Regional,15,Latência média (s),14.6046,13.9311,26.8608,29.1261
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Acurácia sem referência,0.8667,0.7333,0.9333,0.9333
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Acurácia com referência,0.6,0.4667,0.9333,0.9333
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Valores esperados (automático),1,0.8,0.9333,0.9333
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Respostas totalmente referenciadas,0.6,0.5333,1,1
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Item esperado recuperado,1,0.7333,1,1
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Citou o item esperado,1,0.7333,0.9333,1
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Tokens de entrada por pergunta,20145.3333,6763.8667,13338.2,13860.7333
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Tokens totais por pergunta,21672.6667,7909.7333,18241.7333,19003.6
+Claude Haiku 4.5,3,MIB R2 — Tecnologias Digitais,15,Latência média (s),15.3815,11.9303,20.9732,24.8756
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Acurácia sem referência,0.9333,0.6,0.9333,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Acurácia com referência,0.5333,0.4667,0.9333,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Valores esperados (automático),0.9333,0.6,0.9333,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Respostas totalmente referenciadas,0.6,0.7333,1,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Item esperado recuperado,1,0.7857,1,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Citou o item esperado,0.9286,0.7143,1,1
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Tokens de entrada por pergunta,22719.3333,4050.9333,11284.8,14475.8667
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Tokens totais por pergunta,24082.6667,5036.4,16569.0667,19925.2
+Claude Haiku 4.5,3,Agricultura Familiar para ICTs 2026,15,Latência média (s),13.8047,10.3103,20.1824,23.8207

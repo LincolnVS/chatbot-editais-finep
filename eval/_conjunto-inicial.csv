@@ -1,0 +1,55 @@
+id,workspace,topic,question,expected_item,expected_values,answerable
+r01,Subvenção Regional (teste),valores,Qual o valor mínimo e o valor máximo que podem ser solicitados à Finep por proposta?,8.1,"R$ 2.000.000,00|R$ 5.000.000,00",sim
+r02,Subvenção Regional (teste),valores,Qual o total de recursos comprometidos nesta seleção pública e como ele se divide entre as regiões?,3.1,"R$ 300.000.000,00|R$ 150.000.000,00|R$ 100.000.000,00|R$ 50.000.000,00",sim
+r03,Subvenção Regional (teste),prazos,Qual é o prazo final para envio da proposta?,15,09/04/2026,sim
+r04,Subvenção Regional (teste),prazos,Quando será divulgado o resultado final da seleção pública?,15,19/08/2026,sim
+r05,Subvenção Regional (teste),prazos,Qual o prazo máximo de execução do projeto?,10.1,24,sim
+r06,Subvenção Regional (teste),prazos,Em quantos dias a proposta aprovada precisa ser contratada após o resultado final?,14.1,120,sim
+r07,Subvenção Regional (teste),prazos,Qual o prazo para interpor recurso contra o resultado preliminar?,13.2,10,sim
+r08,Subvenção Regional (teste),elegibilidade,Qual a receita operacional bruta mínima exigida da empresa em 2025?,4.2,"R$ 1.000.000,00",sim
+r09,Subvenção Regional (teste),elegibilidade,Qual o limite de receita operacional bruta do grupo econômico ao qual a empresa pertence?,4.2,"R$ 90.000.000,00",sim
+r10,Subvenção Regional (teste),elegibilidade,Microempreendedor individual (MEI) pode participar como proponente?,4.1,não,sim
+r11,Subvenção Regional (teste),elegibilidade,Uma empresa pode participar de mais de uma proposta no mesmo grupo de concorrência?,5.1,uma proposta,sim
+r12,Subvenção Regional (teste),contrapartida,Qual o percentual mínimo de contrapartida para uma média empresa?,9.5,20%,sim
+r13,Subvenção Regional (teste),contrapartida,Qual o percentual mínimo de contrapartida para microempresa e empresa de pequeno porte?,9.5,5%,sim
+r14,Subvenção Regional (teste),escopo,Quais níveis de maturidade tecnológica (TRL) o projeto deve contemplar?,1.2,3|9,sim
+r15,Subvenção Regional (teste),escopo,Quais são os grupos de concorrência (regiões) apoiados?,2.1,Nordeste|Centro-Oeste|Norte,sim
+r16,Subvenção Regional (teste),avaliacao,Qual a pontuação mínima para aprovação na análise de mérito?,12.5,"1,20",sim
+r17,Subvenção Regional (teste),avaliacao,Qual o primeiro critério de desempate entre propostas com a mesma nota?,12.6.1,Abrangência,sim
+r18,Subvenção Regional (teste),avaliacao,Qual é o peso do indicador Parceria com ICTs na avaliação?,12.3.2,1,sim
+r19,Subvenção Regional (teste),fora,Qual o valor destinado a projetos realizados na região Sul?,3.1,,não
+r20,Subvenção Regional (teste),fora,Qual a taxa de juros cobrada sobre os recursos de subvenção?,,,não
+r21,Subvenção Regional (teste),fora,Quantas vagas de bolsa de mestrado o edital oferece?,,,não
+r22,Subvenção Regional (teste),fora,Qual o endereço da sede da Finep em Brasília para entrega da proposta impressa?,,,não
+t01,MIB-R2-TECDIG,valores,Qual o valor mínimo e máximo que pode ser solicitado à Finep no arranjo simples?,5,"R$ 5.000.000,00|R$ 25.000.000,00",sim
+t02,MIB-R2-TECDIG,valores,Qual o valor máximo solicitável no arranjo em rede?,5,"R$ 40.000.000,00",sim
+t03,MIB-R2-TECDIG,valores,Qual o montante total de recursos desta seleção e quanto é reservado às regiões Norte Nordeste e Centro-Oeste?,4,"R$ 300.000.000,00|R$ 90.000.000,00",sim
+t04,MIB-R2-TECDIG,prazos,Qual o prazo máximo de execução do projeto?,7,36,sim
+t05,MIB-R2-TECDIG,prazos,Em quantos meses a proposta aprovada deve ser contratada após a decisão da Diretoria?,8.2,4,sim
+t06,MIB-R2-TECDIG,prazos,As propostas têm data limite ou são recebidas em fluxo contínuo?,6.1,fluxo contínuo,sim
+t07,MIB-R2-TECDIG,elegibilidade,Quantas propostas cada empresa pode integrar?,6.2,duas,sim
+t08,MIB-R2-TECDIG,elegibilidade,A participação de ICT é obrigatória nos projetos?,2.6,obrigatória,sim
+t09,MIB-R2-TECDIG,parcerias,No arranjo em rede qual a receita operacional bruta mínima que ao menos uma das empresas precisa ter?,3,"R$ 16.000.000,00",sim
+t10,MIB-R2-TECDIG,parcerias,No arranjo em rede qual o percentual mínimo do valor do projeto que deve ir para ICTs?,3,5%,sim
+t11,MIB-R2-TECDIG,escopo,Entre quais níveis de TRL as atividades do projeto devem estar?,1,3|8,sim
+t12,MIB-R2-TECDIG,escopo,Qual linha temática trata de robótica avançada com inteligência artificial?,2,Linha Temática 3,sim
+t13,MIB-R2-TECDIG,avaliacao,Qual a pontuação mínima para aprovação na análise de mérito?,8,14,sim
+t14,MIB-R2-TECDIG,avaliacao,Qual o valor máximo de recursos por grupo de concorrência (linha temática)?,4,"R$ 100.000.000,00",sim
+t15,MIB-R2-TECDIG,fora,Qual a taxa de administração cobrada pela Finep sobre a subvenção?,,,não
+t16,MIB-R2-TECDIG,fora,Quantos projetos serão aprovados na linha temática de tecnologias quânticas?,,,não
+a01,AGRIFAM-ICT-2026,valores,Qual o valor mínimo e máximo que pode ser solicitado à Finep por proposta?,7.1,"R$ 3.000.000,00|R$ 7.000.000,00",sim
+a02,AGRIFAM-ICT-2026,valores,Qual o total de recursos da chamada e quanto vai para a linha temática 3?,4.1,"R$ 150.000.000,00|R$ 25.000.000,00",sim
+a03,AGRIFAM-ICT-2026,prazos,Qual o prazo máximo de execução da proposta?,9.1,36,sim
+a04,AGRIFAM-ICT-2026,prazos,Qual a data limite para envio da proposta na plataforma?,15.1,26/06/2026,sim
+a05,AGRIFAM-ICT-2026,prazos,Qual a data limite para envio do cadastro na plataforma?,15.1,19/06/2026,sim
+a06,AGRIFAM-ICT-2026,prazos,Qual o prazo para interposição de recurso após o resultado preliminar?,13.2,10,sim
+a07,AGRIFAM-ICT-2026,prazos,Em quantos dias as propostas aprovadas devem ser contratadas?,16.1,60,sim
+a08,AGRIFAM-ICT-2026,elegibilidade,Quem pode apresentar proposta nesta chamada?,3.1,ICT,sim
+a09,AGRIFAM-ICT-2026,despesas,Qual o limite de gasto com pagamento de pessoal em relação aos recursos solicitados?,6.5.5,30%,sim
+a10,AGRIFAM-ICT-2026,despesas,Qual o limite para despesas com obras e instalações?,6.6.3.4,10%,sim
+a11,AGRIFAM-ICT-2026,despesas,Qual o limite total para despesas de capital?,6.6.4,70%,sim
+a12,AGRIFAM-ICT-2026,contrapartida,Qual a faixa de contrapartida para instituições estaduais fora das áreas prioritárias?,8.3,2%|20%,sim
+a13,AGRIFAM-ICT-2026,avaliacao,Qual a média ponderada mínima para não ser eliminada na avaliação de mérito?,11.3.1,"3,5",sim
+a14,AGRIFAM-ICT-2026,avaliacao,Qual o peso do critério Equipe na avaliação de mérito?,11.3,5,sim
+a15,AGRIFAM-ICT-2026,fora,Qual o valor da bolsa de doutorado prevista no edital?,,,não
+a16,AGRIFAM-ICT-2026,fora,Qual o valor da diária para viagens internacionais da equipe?,,,não

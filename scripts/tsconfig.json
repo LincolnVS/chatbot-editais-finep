@@ -1,0 +1,5 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "rootDir": "..", "allowJs": true },
+  "include": ["*.ts", "*.mjs", "../packages/shared/src/**/*.ts", "../apps/api/src/**/*.ts"]
+}

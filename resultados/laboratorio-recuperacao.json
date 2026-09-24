@@ -1,0 +1,203 @@
+{
+ "questions": 43,
+ "samples": [
+  {
+   "runId": "01M2KJ753VSCBRHJJGA5Z1JZ5Q",
+   "label": "produto-e5base-sonnet",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M2KK86CPTD78QAENY7CZ5P7T",
+   "label": "produto-vs-inteiro-haiku",
+   "model": "haiku"
+  },
+  {
+   "runId": "01M2M6X64KWFMKQK2XGYWFABBS",
+   "label": "apresentacao-sonnet",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M2M98FCB9YTVJPJ36NAWJSVS",
+   "label": "apresentacao-sonnet-v4",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M2NZWJ42RQ9NSWECYVH6PX2F",
+   "label": "completo-sonnet-v4",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M2PM33AKZ8JEZCR287XHX9C3",
+   "label": "glossario-sonnet-v4",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M35XFJR3D49WJK5EEAN138P4",
+   "label": "final-sonnet-glossario-doc",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M35XFTDETJD29S03P8REC0NS",
+   "label": "final-haiku-glossario-doc",
+   "model": "haiku"
+  },
+  {
+   "runId": "01M36542VVAFDQK9RFZ8R2PJE7",
+   "label": "final2-sonnet",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M36545VC6CZDEKHMNR7DKKXP",
+   "label": "final2-haiku",
+   "model": "haiku"
+  },
+  {
+   "runId": "01M367V5DRP1BH7H0TGAKBNPVQ",
+   "label": "final2-sonnet-r2",
+   "model": "sonnet"
+  },
+  {
+   "runId": "01M3680RZ0SRQR854YQN9XJ166",
+   "label": "final2-haiku-r2",
+   "model": "haiku"
+  }
+ ],
+ "results": [
+  {
+   "name": "noexp+gloss:mao+k12",
+   "hit": 1,
+   "hitMin": null,
+   "hitMax": null,
+   "samples": 0,
+   "misses": [],
+   "latencyMs": 96.56796511627913
+  },
+  {
+   "name": "exp+gloss:mao+k12",
+   "hit": 1,
+   "hitMin": 1,
+   "hitMax": 1,
+   "samples": 12,
+   "misses": [],
+   "latencyMs": 199.28207984496206
+  },
+  {
+   "name": "exp+gloss:doc+gloss:llm+k12",
+   "hit": 0.9631782945736433,
+   "hitMin": 0.9069767441860465,
+   "hitMax": 1,
+   "samples": 12,
+   "misses": [
+    "q08-tec×11",
+    "q09-tec×4",
+    "q09-agr×2",
+    "q09-reg×1",
+    "q07-tec×1"
+   ],
+   "latencyMs": 140.60047713178395
+  },
+  {
+   "name": "exp+gloss:doc+k12",
+   "hit": 0.9631782945736433,
+   "hitMin": 0.9069767441860465,
+   "hitMax": 1,
+   "samples": 12,
+   "misses": [
+    "q08-tec×11",
+    "q09-tec×4",
+    "q09-agr×2",
+    "q09-reg×1",
+    "q07-tec×1"
+   ],
+   "latencyMs": 147.4571844961237
+  },
+  {
+   "name": "exp+gloss:doc+acervo+k12",
+   "hit": 0.9612403100775193,
+   "hitMin": 0.9302325581395349,
+   "hitMax": 0.9767441860465116,
+   "samples": 12,
+   "misses": [
+    "q08-tec×12",
+    "q08-agr×4",
+    "q09-tec×3",
+    "q07-tec×1"
+   ],
+   "latencyMs": 152.01692480620133
+  },
+  {
+   "name": "exp+k12",
+   "hit": 0.9399224806201549,
+   "hitMin": 0.9069767441860465,
+   "hitMax": 1,
+   "samples": 12,
+   "misses": [
+    "q08-tec×11",
+    "q09-agr×10",
+    "q08-agr×4",
+    "q09-tec×4",
+    "q09-reg×1",
+    "q07-tec×1"
+   ],
+   "latencyMs": 130.85420736434114
+  },
+  {
+   "name": "noexp+gloss:doc+gloss:llm+k12",
+   "hit": 0.9069767441860465,
+   "hitMin": null,
+   "hitMax": null,
+   "samples": 0,
+   "misses": [
+    "q07-reg",
+    "q07-tec",
+    "q08-tec",
+    "q09-tec"
+   ],
+   "latencyMs": 40.972874418604775
+  },
+  {
+   "name": "noexp+gloss:doc+k12",
+   "hit": 0.9069767441860465,
+   "hitMin": null,
+   "hitMax": null,
+   "samples": 0,
+   "misses": [
+    "q07-reg",
+    "q07-tec",
+    "q08-tec",
+    "q09-tec"
+   ],
+   "latencyMs": 49.04625116279071
+  },
+  {
+   "name": "noexp+gloss:doc+acervo+k12",
+   "hit": 0.8837209302325582,
+   "hitMin": null,
+   "hitMax": null,
+   "samples": 0,
+   "misses": [
+    "q07-reg",
+    "q07-tec",
+    "q08-tec",
+    "q08-agr",
+    "q09-tec"
+   ],
+   "latencyMs": 47.828637209302286
+  },
+  {
+   "name": "noexp+k12",
+   "hit": 0.8837209302325582,
+   "hitMin": null,
+   "hitMax": null,
+   "samples": 0,
+   "misses": [
+    "q07-reg",
+    "q07-tec",
+    "q08-tec",
+    "q08-agr",
+    "q09-tec"
+   ],
+   "latencyMs": 55.08333023255812
+  }
+ ]
+}

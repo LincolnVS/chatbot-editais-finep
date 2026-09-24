@@ -1,0 +1,41 @@
+{
+  "name": "ufg-tcc",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "dev:docling": "powershell -ExecutionPolicy Bypass -File scripts/dev-docling.ps1",
+    "build:web": "npm run build -w apps/web",
+    "start": "npm run start -w apps/api",
+    "test": "npm test -w apps/api",
+    "typecheck": "npm run typecheck -w apps/api && npm run typecheck -w apps/web && tsc -p packages/shared/tsconfig.json --noEmit",
+    "test:coverage": "npm run test -w apps/api -- --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dup": "jscpd apps packages scripts",
+    "audit": "npm audit --audit-level=critical",
+    "quality": "npm run lint && npm run typecheck && npm run test:coverage && npm run dup && npm run audit",
+    "eval": "node --env-file-if-exists=.env apps/api/src/eval/cli.ts",
+    "eval:retrieval": "node --env-file-if-exists=.env apps/api/src/eval/retrieval-lab.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "eslint-plugin-sonarjs": "^4.2.0",
+    "globals": "^17.12.0",
+    "jscpd": "^5.2.0",
+    "typescript-eslint": "^8.70.0"
+  }
+}

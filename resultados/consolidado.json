@@ -1,0 +1,1743 @@
+{
+  "gerado": "2026-09-23T18:07:46.286Z",
+  "modelos": {
+    "Sonnet": {
+      "ids": [
+        "01M36542VVAFDQK9RFZ8R2PJE7",
+        "01M367V5DRP1BH7H0TGAKBNPVQ",
+        "01M379FMK6FQ0AZCVJ5GRMSTEF"
+      ],
+      "geral": {
+        "full_context": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.9777777777777777,
+          "auto": 1,
+          "accAuto": 0.7333333333333333,
+          "acc": 0.7185185185185186,
+          "referenciadas": 0.7333333333333333,
+          "item": null,
+          "abstIndevida": 0.015503875968992248,
+          "tokens": 26373.37777777778,
+          "tokensEntrada": 25647.348148148147,
+          "latencia": 7.181666666666666,
+          "buscou": 0
+        },
+        "rag_dense": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.7925925925925926,
+          "auto": 0.7925925925925926,
+          "accAuto": 0.45925925925925926,
+          "acc": 0.45925925925925926,
+          "referenciadas": 0.5481481481481482,
+          "item": 0.7674418604651163,
+          "abstIndevida": 0.09302325581395349,
+          "tokens": 8359.45925925926,
+          "tokensEntrada": 7737.511111111111,
+          "latencia": 6.53423703703704,
+          "buscou": 0
+        },
+        "rag_hybrid": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.9037037037037037,
+          "auto": 0.9259259259259259,
+          "accAuto": 0.8888888888888888,
+          "acc": 0.8666666666666667,
+          "referenciadas": 0.9407407407407408,
+          "item": 0.9457364341085271,
+          "abstIndevida": 0.015503875968992248,
+          "tokens": 17169.955555555556,
+          "tokensEntrada": 15938.925925925925,
+          "latencia": 9.075066666666665,
+          "buscou": 0
+        },
+        "rag_search": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.9777777777777777,
+          "auto": 0.9777777777777777,
+          "accAuto": 0.9333333333333333,
+          "acc": 0.9333333333333333,
+          "referenciadas": 0.9481481481481482,
+          "item": 0.9844961240310077,
+          "abstIndevida": 0.03875968992248062,
+          "tokens": 24286.503703703704,
+          "tokensEntrada": 22692.903703703705,
+          "latencia": 14.513111111111114,
+          "buscou": 49
+        }
+      },
+      "porRep": {
+        "full_context": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.7555555555555555,
+            "acc": 0.7333333333333333,
+            "referenciadas": 0.7555555555555555,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 26383.844444444443,
+            "tokensEntrada": 25647.155555555557,
+            "latencia": 7.487711111111109,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.7111111111111111,
+            "acc": 0.6888888888888889,
+            "referenciadas": 0.7111111111111111,
+            "item": null,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 26359.911111111112,
+            "tokensEntrada": 25647.48888888889,
+            "latencia": 7.093777777777776,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.7333333333333333,
+            "acc": 0.7333333333333333,
+            "referenciadas": 0.7333333333333333,
+            "item": null,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 26376.37777777778,
+            "tokensEntrada": 25647.4,
+            "latencia": 6.963511111111113,
+            "buscou": 0
+          }
+        ],
+        "rag_dense": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8,
+            "auto": 0.8,
+            "accAuto": 0.4888888888888889,
+            "acc": 0.4888888888888889,
+            "referenciadas": 0.5777777777777777,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.09302325581395349,
+            "tokens": 8360.822222222223,
+            "tokensEntrada": 7737.666666666667,
+            "latencia": 6.522244444444445,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.4,
+            "acc": 0.4,
+            "referenciadas": 0.5111111111111111,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.09302325581395349,
+            "tokens": 8361.555555555555,
+            "tokensEntrada": 7737.444444444444,
+            "latencia": 6.264933333333333,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8,
+            "auto": 0.8,
+            "accAuto": 0.4888888888888889,
+            "acc": 0.4888888888888889,
+            "referenciadas": 0.5555555555555556,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.09302325581395349,
+            "tokens": 8356,
+            "tokensEntrada": 7737.422222222222,
+            "latencia": 6.815533333333334,
+            "buscou": 0
+          }
+        ],
+        "rag_hybrid": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9333333333333333,
+            "accAuto": 0.9111111111111111,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.9333333333333333,
+            "item": 0.9534883720930233,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 16905.777777777777,
+            "tokensEntrada": 15644.044444444444,
+            "latencia": 8.927177777777777,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8666666666666667,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8666666666666667,
+            "referenciadas": 0.9777777777777777,
+            "item": 0.9069767441860465,
+            "abstIndevida": 0,
+            "tokens": 17317.37777777778,
+            "tokensEntrada": 16080.266666666666,
+            "latencia": 10.117155555555557,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9333333333333333,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.8666666666666667,
+            "acc": 0.8444444444444444,
+            "referenciadas": 0.9111111111111111,
+            "item": 0.9767441860465116,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 17286.71111111111,
+            "tokensEntrada": 16092.466666666667,
+            "latencia": 8.18086666666667,
+            "buscou": 0
+          }
+        ],
+        "rag_search": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.9111111111111111,
+            "acc": 0.9111111111111111,
+            "referenciadas": 0.9111111111111111,
+            "item": 1,
+            "abstIndevida": 0.046511627906976744,
+            "tokens": 23378.088888888888,
+            "tokensEntrada": 21846.355555555554,
+            "latencia": 13.932866666666666,
+            "buscou": 16
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 0.9777777777777777,
+            "accAuto": 0.9555555555555556,
+            "acc": 0.9555555555555556,
+            "referenciadas": 0.9555555555555556,
+            "item": 0.9767441860465116,
+            "abstIndevida": 0,
+            "tokens": 25998.733333333334,
+            "tokensEntrada": 24297.666666666668,
+            "latencia": 16.118177777777777,
+            "buscou": 18
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9555555555555556,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.9333333333333333,
+            "acc": 0.9333333333333333,
+            "referenciadas": 0.9777777777777777,
+            "item": 0.9767441860465116,
+            "abstIndevida": 0.06976744186046512,
+            "tokens": 23482.68888888889,
+            "tokensEntrada": 21934.68888888889,
+            "latencia": 13.48828888888889,
+            "buscou": 15
+          }
+        ]
+      },
+      "porEdital": {
+        "full_context": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.7111111111111111,
+            "acc": 0.6888888888888889,
+            "referenciadas": 0.7111111111111111,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 22860.466666666667,
+            "tokensEntrada": 22105.555555555555,
+            "latencia": 7.443066666666667,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.8222222222222222,
+            "acc": 0.8,
+            "referenciadas": 0.8222222222222222,
+            "item": null,
+            "abstIndevida": 0.044444444444444446,
+            "tokens": 26519.666666666668,
+            "tokensEntrada": 25809.82222222222,
+            "latencia": 6.896311111111108,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 1,
+            "accAuto": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.6666666666666666,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 29740,
+            "tokensEntrada": 29026.666666666668,
+            "latencia": 7.205622222222222,
+            "buscou": 0
+          }
+        },
+        "rag_dense": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8666666666666667,
+            "auto": 0.8666666666666667,
+            "accAuto": 0.4444444444444444,
+            "acc": 0.4444444444444444,
+            "referenciadas": 0.5555555555555556,
+            "item": 0.7857142857142857,
+            "abstIndevida": 0.07142857142857142,
+            "tokens": 9865.511111111111,
+            "tokensEntrada": 9164.244444444445,
+            "latencia": 7.5632,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8,
+            "auto": 0.8,
+            "accAuto": 0.4666666666666667,
+            "acc": 0.4666666666666667,
+            "referenciadas": 0.5333333333333333,
+            "item": 0.7333333333333333,
+            "abstIndevida": 0.06666666666666667,
+            "tokens": 9506.133333333333,
+            "tokensEntrada": 8796.555555555555,
+            "latencia": 7.05971111111111,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7111111111111111,
+            "auto": 0.7111111111111111,
+            "accAuto": 0.4666666666666667,
+            "acc": 0.4666666666666667,
+            "referenciadas": 0.5555555555555556,
+            "item": 0.7857142857142857,
+            "abstIndevida": 0.14285714285714285,
+            "tokens": 5706.733333333334,
+            "tokensEntrada": 5251.733333333334,
+            "latencia": 4.979800000000001,
+            "buscou": 0
+          }
+        },
+        "rag_hybrid": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9555555555555556,
+            "auto": 1,
+            "accAuto": 0.9777777777777777,
+            "acc": 0.9333333333333333,
+            "referenciadas": 0.9777777777777777,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 18241.48888888889,
+            "tokensEntrada": 16984.28888888889,
+            "latencia": 8.899933333333331,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8444444444444444,
+            "auto": 0.8444444444444444,
+            "accAuto": 0.8222222222222222,
+            "acc": 0.8222222222222222,
+            "referenciadas": 0.9111111111111111,
+            "item": 0.8666666666666667,
+            "abstIndevida": 0.044444444444444446,
+            "tokens": 18440.066666666666,
+            "tokensEntrada": 17135.422222222223,
+            "latencia": 9.828777777777779,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9333333333333333,
+            "accAuto": 0.8666666666666667,
+            "acc": 0.8444444444444444,
+            "referenciadas": 0.9333333333333333,
+            "item": 0.9761904761904762,
+            "abstIndevida": 0,
+            "tokens": 14828.31111111111,
+            "tokensEntrada": 13697.066666666668,
+            "latencia": 8.496488888888893,
+            "buscou": 0
+          }
+        },
+        "rag_search": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.9555555555555556,
+            "acc": 0.9555555555555556,
+            "referenciadas": 0.9555555555555556,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 25795.51111111111,
+            "tokensEntrada": 24067.355555555554,
+            "latencia": 15.5568,
+            "buscou": 15
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9555555555555556,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.9111111111111111,
+            "acc": 0.9111111111111111,
+            "referenciadas": 0.9555555555555556,
+            "item": 0.9555555555555556,
+            "abstIndevida": 0.044444444444444446,
+            "tokens": 24668.6,
+            "tokensEntrada": 23049.266666666666,
+            "latencia": 14.774066666666663,
+            "buscou": 15
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 0.9777777777777777,
+            "accAuto": 0.9333333333333333,
+            "acc": 0.9333333333333333,
+            "referenciadas": 0.9333333333333333,
+            "item": 1,
+            "abstIndevida": 0.07142857142857142,
+            "tokens": 22395.4,
+            "tokensEntrada": 20962.088888888888,
+            "latencia": 13.208466666666668,
+            "buscou": 19
+          }
+        }
+      },
+      "porTema": {
+        "full_context": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.9259259259259259,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 26181.444444444445,
+            "tokensEntrada": 25649.14814814815,
+            "latencia": 5.236148148148148,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.6296296296296297,
+            "acc": 0.6296296296296297,
+            "referenciadas": 0.6296296296296297,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 26011.185185185186,
+            "tokensEntrada": 25647.14814814815,
+            "latencia": 4.563851851851853,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 0.5555555555555556,
+            "acc": 0.5185185185185185,
+            "referenciadas": 0.5555555555555556,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 26732.962962962964,
+            "tokensEntrada": 25648.333333333332,
+            "latencia": 10.34162962962963,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.8888888888888888,
+            "item": null,
+            "abstIndevida": 0.09523809523809523,
+            "tokens": 26303,
+            "tokensEntrada": 25647.25925925926,
+            "latencia": 6.389333333333334,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.6666666666666666,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 26638.296296296296,
+            "tokensEntrada": 25644.85185185185,
+            "latencia": 9.377370370370372,
+            "buscou": 0
+          }
+        },
+        "rag_dense": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8888888888888888,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.7037037037037037,
+            "acc": 0.7037037037037037,
+            "referenciadas": 0.7037037037037037,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 8811.444444444445,
+            "tokensEntrada": 8299.296296296296,
+            "latencia": 5.563222222222221,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.6666666666666666,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 7640.592592592592,
+            "tokensEntrada": 7285.481481481482,
+            "latencia": 4.0524814814814825,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.5185185185185185,
+            "auto": 0.5185185185185185,
+            "accAuto": 0.18518518518518517,
+            "acc": 0.18518518518518517,
+            "referenciadas": 0.4074074074074074,
+            "item": 0.3333333333333333,
+            "abstIndevida": 0.2222222222222222,
+            "tokens": 8545.777777777777,
+            "tokensEntrada": 7748.814814814815,
+            "latencia": 8.320740740740739,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.5185185185185185,
+            "acc": 0.5185185185185185,
+            "referenciadas": 0.7407407407407407,
+            "item": 0.7142857142857143,
+            "abstIndevida": 0.2857142857142857,
+            "tokens": 8600.555555555555,
+            "tokensEntrada": 7997.37037037037,
+            "latencia": 6.4332222222222235,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.2222222222222222,
+            "acc": 0.2222222222222222,
+            "referenciadas": 0.2222222222222222,
+            "item": 0.7777777777777778,
+            "abstIndevida": 0,
+            "tokens": 8198.925925925925,
+            "tokensEntrada": 7356.592592592592,
+            "latencia": 8.301518518518519,
+            "buscou": 0
+          }
+        },
+        "rag_hybrid": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9629629629629629,
+            "acc": 0.9629629629629629,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 14050.37037037037,
+            "tokensEntrada": 13240.25925925926,
+            "latencia": 6.079185185185188,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.9259259259259259,
+            "referenciadas": 0.9259259259259259,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 14828.62962962963,
+            "tokensEntrada": 14092.37037037037,
+            "latencia": 5.224333333333333,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.6666666666666666,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.7777777777777778,
+            "item": 0.7407407407407407,
+            "abstIndevida": 0,
+            "tokens": 19330.40740740741,
+            "tokensEntrada": 17603.296296296296,
+            "latencia": 13.02559259259259,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8518518518518519,
+            "auto": 0.9259259259259259,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.8518518518518519,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0.09523809523809523,
+            "tokens": 19042.25925925926,
+            "tokensEntrada": 17975.555555555555,
+            "latencia": 7.420370370370371,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9259259259259259,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9629629629629629,
+            "acc": 0.9259259259259259,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 18598.11111111111,
+            "tokensEntrada": 16783.14814814815,
+            "latencia": 13.625851851851856,
+            "buscou": 0
+          }
+        },
+        "rag_search": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 1,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 15979.074074074075,
+            "tokensEntrada": 15011.074074074075,
+            "latencia": 7.889962962962962,
+            "buscou": 3
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 1,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 15321.703703703704,
+            "tokensEntrada": 14429.962962962964,
+            "latencia": 7.817074074074073,
+            "buscou": 2
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.8148148148148148,
+            "acc": 0.8148148148148148,
+            "referenciadas": 0.8518518518518519,
+            "item": 0.9259259259259259,
+            "abstIndevida": 0.07407407407407407,
+            "tokens": 33335.333333333336,
+            "tokensEntrada": 30899.14814814815,
+            "latencia": 22.158444444444438,
+            "buscou": 17
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9629629629629629,
+            "acc": 0.9629629629629629,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0.09523809523809523,
+            "tokens": 28923.703703703704,
+            "tokensEntrada": 27591.666666666668,
+            "latencia": 13.46540740740741,
+            "buscou": 15
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.8888888888888888,
+            "item": 1,
+            "abstIndevida": 0.037037037037037035,
+            "tokens": 27872.703703703704,
+            "tokensEntrada": 25532.666666666668,
+            "latencia": 21.234666666666673,
+            "buscou": 12
+          }
+        }
+      },
+      "falhas": {
+        "full_context": [
+          [
+            "q03-reg"
+          ],
+          [
+            "q09-tec"
+          ],
+          [
+            "q13-agr"
+          ]
+        ],
+        "rag_dense": [
+          [
+            "q03-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-tec",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ],
+          [
+            "q03-agr",
+            "q07-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-tec",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ],
+          [
+            "q03-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-tec",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ]
+        ],
+        "rag_hybrid": [
+          [
+            "q08-tec",
+            "q09-tec",
+            "q12-tec",
+            "q13-agr"
+          ],
+          [
+            "q03-agr",
+            "q08-tec",
+            "q09-tec",
+            "q09-agr",
+            "q12-reg",
+            "q13-agr"
+          ],
+          [
+            "q08-tec",
+            "q12-reg",
+            "q12-tec"
+          ]
+        ],
+        "rag_search": [
+          [],
+          [
+            "q13-agr"
+          ],
+          [
+            "q08-tec",
+            "q12-tec"
+          ]
+        ]
+      },
+      "editais": [
+        {
+          "id": "01M2G1A7KCXFQJQJXERZ4SY0DQ",
+          "nome": "Subvenção Regional (teste)"
+        },
+        {
+          "id": "01M2GPEEZYWAR0H9F3CAEZGNNV",
+          "nome": "MIB R2 — Tecnologias Digitais"
+        },
+        {
+          "id": "01M2GPEF1KF2Y84EMZD3MYW4P4",
+          "nome": "Agricultura Familiar para ICTs 2026"
+        }
+      ]
+    },
+    "Haiku": {
+      "ids": [
+        "01M36545VC6CZDEKHMNR7DKKXP",
+        "01M3680RZ0SRQR854YQN9XJ166",
+        "01M377MYAYN0MRH66Z47N2NF7F"
+      ],
+      "geral": {
+        "full_context": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.8962962962962963,
+          "auto": 0.9555555555555556,
+          "accAuto": 0.6,
+          "acc": 0.5777777777777777,
+          "referenciadas": 0.6296296296296297,
+          "item": null,
+          "abstIndevida": 0.031007751937984496,
+          "tokens": 21377.103703703702,
+          "tokensEntrada": 20020.925925925927,
+          "latencia": 13.709659259259254,
+          "buscou": 0
+        },
+        "rag_dense": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.7185185185185186,
+          "auto": 0.7555555555555555,
+          "accAuto": 0.5333333333333333,
+          "acc": 0.5185185185185185,
+          "referenciadas": 0.6962962962962963,
+          "item": 0.7674418604651163,
+          "abstIndevida": 0.12403100775193798,
+          "tokens": 7239.355555555556,
+          "tokensEntrada": 5947.488888888889,
+          "latencia": 12.920844444444445,
+          "buscou": 0
+        },
+        "rag_hybrid": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.8888888888888888,
+          "auto": 0.9333333333333333,
+          "accAuto": 0.9037037037037037,
+          "acc": 0.8592592592592593,
+          "referenciadas": 0.9703703703703703,
+          "item": 0.9767441860465116,
+          "abstIndevida": 0.031007751937984496,
+          "tokens": 16852.474074074074,
+          "tokensEntrada": 11678.007407407407,
+          "latencia": 22.020962962962976,
+          "buscou": 0
+        },
+        "rag_search": {
+          "n": 135,
+          "erros": 0,
+          "pre": 0.9185185185185185,
+          "auto": 0.9407407407407408,
+          "accAuto": 0.9407407407407408,
+          "acc": 0.9185185185185185,
+          "referenciadas": 0.9851851851851852,
+          "item": 0.9767441860465116,
+          "abstIndevida": 0.023255813953488372,
+          "tokens": 19689.777777777777,
+          "tokensEntrada": 14244.548148148147,
+          "latencia": 26.57543703703704,
+          "buscou": 26
+        }
+      },
+      "porRep": {
+        "full_context": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8888888888888888,
+            "auto": 0.9777777777777777,
+            "accAuto": 0.6222222222222222,
+            "acc": 0.5777777777777777,
+            "referenciadas": 0.6444444444444445,
+            "item": null,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 21312.066666666666,
+            "tokensEntrada": 20021.044444444444,
+            "latencia": 12.802355555555556,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8888888888888888,
+            "auto": 0.9111111111111111,
+            "accAuto": 0.5555555555555556,
+            "acc": 0.5333333333333333,
+            "referenciadas": 0.6,
+            "item": null,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 21344.955555555556,
+            "tokensEntrada": 20020.933333333334,
+            "latencia": 13.729688888888889,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9777777777777777,
+            "accAuto": 0.6222222222222222,
+            "acc": 0.6222222222222222,
+            "referenciadas": 0.6444444444444445,
+            "item": null,
+            "abstIndevida": 0.046511627906976744,
+            "tokens": 21474.28888888889,
+            "tokensEntrada": 20020.8,
+            "latencia": 14.596933333333336,
+            "buscou": 0
+          }
+        ],
+        "rag_dense": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7111111111111111,
+            "auto": 0.7555555555555555,
+            "accAuto": 0.5555555555555556,
+            "acc": 0.5333333333333333,
+            "referenciadas": 0.7111111111111111,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.13953488372093023,
+            "tokens": 7295.666666666667,
+            "tokensEntrada": 5947.577777777778,
+            "latencia": 13.299333333333331,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7333333333333333,
+            "auto": 0.7555555555555555,
+            "accAuto": 0.5111111111111111,
+            "acc": 0.5111111111111111,
+            "referenciadas": 0.6888888888888889,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.11627906976744186,
+            "tokens": 7321.311111111111,
+            "tokensEntrada": 5947.511111111111,
+            "latencia": 13.405933333333332,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7111111111111111,
+            "auto": 0.7555555555555555,
+            "accAuto": 0.5333333333333333,
+            "acc": 0.5111111111111111,
+            "referenciadas": 0.6888888888888889,
+            "item": 0.7674418604651163,
+            "abstIndevida": 0.11627906976744186,
+            "tokens": 7101.0888888888885,
+            "tokensEntrada": 5947.377777777778,
+            "latencia": 12.057266666666663,
+            "buscou": 0
+          }
+        ],
+        "rag_hybrid": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8888888888888888,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.9555555555555556,
+            "acc": 0.8888888888888888,
+            "referenciadas": 1,
+            "item": 0.9767441860465116,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 16382.244444444445,
+            "tokensEntrada": 11546.31111111111,
+            "latencia": 21.433644444444443,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8444444444444444,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.8,
+            "acc": 0.7555555555555555,
+            "referenciadas": 0.9111111111111111,
+            "item": 0.9534883720930233,
+            "abstIndevida": 0.046511627906976744,
+            "tokens": 16698.955555555556,
+            "tokensEntrada": 11563.422222222222,
+            "latencia": 21.95711111111111,
+            "buscou": 0
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9333333333333333,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.9555555555555556,
+            "acc": 0.9333333333333333,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 17476.222222222223,
+            "tokensEntrada": 11924.288888888888,
+            "latencia": 22.672133333333335,
+            "buscou": 0
+          }
+        ],
+        "rag_search": [
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9333333333333333,
+            "accAuto": 0.9333333333333333,
+            "acc": 0.9111111111111111,
+            "referenciadas": 1,
+            "item": 0.9767441860465116,
+            "abstIndevida": 0.023255813953488372,
+            "tokens": 20388.444444444445,
+            "tokensEntrada": 14955.266666666666,
+            "latencia": 28.781555555555556,
+            "buscou": 9
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8666666666666667,
+            "auto": 0.9111111111111111,
+            "accAuto": 0.9111111111111111,
+            "acc": 0.8666666666666667,
+            "referenciadas": 0.9555555555555556,
+            "item": 0.9534883720930233,
+            "abstIndevida": 0.046511627906976744,
+            "tokens": 19524.133333333335,
+            "tokensEntrada": 14319.533333333333,
+            "latencia": 25.00397777777778,
+            "buscou": 9
+          },
+          {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9777777777777777,
+            "auto": 0.9777777777777777,
+            "accAuto": 0.9777777777777777,
+            "acc": 0.9777777777777777,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 19156.755555555555,
+            "tokensEntrada": 13458.844444444445,
+            "latencia": 25.940777777777775,
+            "buscou": 8
+          }
+        ]
+      },
+      "porEdital": {
+        "full_context": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9333333333333333,
+            "auto": 1,
+            "accAuto": 0.6888888888888889,
+            "acc": 0.6444444444444445,
+            "referenciadas": 0.6888888888888889,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 18617.777777777777,
+            "tokensEntrada": 17198.133333333335,
+            "latencia": 14.106666666666666,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8444444444444444,
+            "auto": 0.9111111111111111,
+            "accAuto": 0.5333333333333333,
+            "acc": 0.5333333333333333,
+            "referenciadas": 0.5777777777777777,
+            "item": null,
+            "abstIndevida": 0.06666666666666667,
+            "tokens": 21451.533333333333,
+            "tokensEntrada": 20145.266666666666,
+            "latencia": 13.187622222222222,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.5777777777777777,
+            "acc": 0.5555555555555556,
+            "referenciadas": 0.6222222222222222,
+            "item": null,
+            "abstIndevida": 0.023809523809523808,
+            "tokens": 24062,
+            "tokensEntrada": 22719.37777777778,
+            "latencia": 13.834688888888895,
+            "buscou": 0
+          }
+        },
+        "rag_dense": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.8444444444444444,
+            "accAuto": 0.6222222222222222,
+            "acc": 0.6,
+            "referenciadas": 0.7333333333333333,
+            "item": 0.7857142857142857,
+            "abstIndevida": 0.07142857142857142,
+            "tokens": 8629.044444444444,
+            "tokensEntrada": 7027.377777777778,
+            "latencia": 15.85784444444445,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.7555555555555555,
+            "auto": 0.8,
+            "accAuto": 0.5111111111111111,
+            "acc": 0.4888888888888889,
+            "referenciadas": 0.6222222222222222,
+            "item": 0.7333333333333333,
+            "abstIndevida": 0.06666666666666667,
+            "tokens": 8045.8,
+            "tokensEntrada": 6763.7555555555555,
+            "latencia": 12.789288888888889,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.6222222222222222,
+            "auto": 0.6222222222222222,
+            "accAuto": 0.4666666666666667,
+            "acc": 0.4666666666666667,
+            "referenciadas": 0.7333333333333333,
+            "item": 0.7857142857142857,
+            "abstIndevida": 0.23809523809523808,
+            "tokens": 5043.222222222223,
+            "tokensEntrada": 4051.3333333333335,
+            "latencia": 10.1154,
+            "buscou": 0
+          }
+        },
+        "rag_hybrid": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 1,
+            "accAuto": 0.9777777777777777,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.9777777777777777,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 18053.866666666665,
+            "tokensEntrada": 12153.466666666667,
+            "latencia": 27.62146666666667,
+            "buscou": 0
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8444444444444444,
+            "auto": 0.8666666666666667,
+            "accAuto": 0.8666666666666667,
+            "acc": 0.8444444444444444,
+            "referenciadas": 1,
+            "item": 0.9333333333333333,
+            "abstIndevida": 0.06666666666666667,
+            "tokens": 16934.044444444444,
+            "tokensEntrada": 12114.977777777778,
+            "latencia": 17.97746666666667,
+            "buscou": 0
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9111111111111111,
+            "auto": 0.9333333333333333,
+            "accAuto": 0.8666666666666667,
+            "acc": 0.8444444444444444,
+            "referenciadas": 0.9333333333333333,
+            "item": 1,
+            "abstIndevida": 0.023809523809523808,
+            "tokens": 15569.511111111111,
+            "tokensEntrada": 10765.577777777778,
+            "latencia": 20.463955555555557,
+            "buscou": 0
+          }
+        },
+        "rag_search": {
+          "Subvenção Regional (teste)": {
+            "n": 45,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 1,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 17914.844444444443,
+            "tokensEntrada": 12735.066666666668,
+            "latencia": 23.56051111111111,
+            "buscou": 4
+          },
+          "MIB R2 — Tecnologias Digitais": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.8222222222222222,
+            "auto": 0.8666666666666667,
+            "accAuto": 0.8666666666666667,
+            "acc": 0.8222222222222222,
+            "referenciadas": 0.9777777777777777,
+            "item": 0.9333333333333333,
+            "abstIndevida": 0.044444444444444446,
+            "tokens": 20556.2,
+            "tokensEntrada": 14855.666666666666,
+            "latencia": 27.64628888888889,
+            "buscou": 6
+          },
+          "Agricultura Familiar para ICTs 2026": {
+            "n": 45,
+            "erros": 0,
+            "pre": 0.9333333333333333,
+            "auto": 0.9555555555555556,
+            "accAuto": 0.9555555555555556,
+            "acc": 0.9333333333333333,
+            "referenciadas": 0.9777777777777777,
+            "item": 1,
+            "abstIndevida": 0.023809523809523808,
+            "tokens": 20598.28888888889,
+            "tokensEntrada": 15142.91111111111,
+            "latencia": 28.519511111111118,
+            "buscou": 16
+          }
+        }
+      },
+      "porTema": {
+        "full_context": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 0.7777777777777778,
+            "acc": 0.7777777777777778,
+            "referenciadas": 0.7777777777777778,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 21048,
+            "tokensEntrada": 20021.555555555555,
+            "latencia": 10.25559259259259,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.9259259259259259,
+            "referenciadas": 0.9259259259259259,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 20910.777777777777,
+            "tokensEntrada": 20021.444444444445,
+            "latencia": 9.226074074074074,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7037037037037037,
+            "auto": 0.8518518518518519,
+            "accAuto": 0.3333333333333333,
+            "acc": 0.2962962962962963,
+            "referenciadas": 0.4074074074074074,
+            "item": null,
+            "abstIndevida": 0.037037037037037035,
+            "tokens": 21911.25925925926,
+            "tokensEntrada": 20021.59259259259,
+            "latencia": 19.19966666666667,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8518518518518519,
+            "auto": 0.9259259259259259,
+            "accAuto": 0.48148148148148145,
+            "acc": 0.4444444444444444,
+            "referenciadas": 0.5555555555555556,
+            "item": null,
+            "abstIndevida": 0.14285714285714285,
+            "tokens": 21438.444444444445,
+            "tokensEntrada": 20021.703703703704,
+            "latencia": 14.093518518518518,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 0.48148148148148145,
+            "acc": 0.4444444444444444,
+            "referenciadas": 0.48148148148148145,
+            "item": null,
+            "abstIndevida": 0,
+            "tokens": 21577.037037037036,
+            "tokensEntrada": 20018.333333333332,
+            "latencia": 15.773444444444443,
+            "buscou": 0
+          }
+        },
+        "rag_dense": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8148148148148148,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.7037037037037037,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.7037037037037037,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 7440.518518518518,
+            "tokensEntrada": 6357.962962962963,
+            "latencia": 10.802444444444445,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8888888888888888,
+            "referenciadas": 0.9259259259259259,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 6683.37037037037,
+            "tokensEntrada": 5623.407407407408,
+            "latencia": 10.723888888888892,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.2962962962962963,
+            "auto": 0.37037037037037035,
+            "accAuto": 0.14814814814814814,
+            "acc": 0.1111111111111111,
+            "referenciadas": 0.5555555555555556,
+            "item": 0.3333333333333333,
+            "abstIndevida": 0.2962962962962963,
+            "tokens": 7459.777777777777,
+            "tokensEntrada": 5940.888888888889,
+            "latencia": 14.98625925925926,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7407407407407407,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.5185185185185185,
+            "acc": 0.5185185185185185,
+            "referenciadas": 0.7407407407407407,
+            "item": 0.7142857142857143,
+            "abstIndevida": 0.2857142857142857,
+            "tokens": 7559.185185185185,
+            "tokensEntrada": 6164.518518518518,
+            "latencia": 14.084962962962964,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7777777777777778,
+            "auto": 0.7777777777777778,
+            "accAuto": 0.4074074074074074,
+            "acc": 0.4074074074074074,
+            "referenciadas": 0.5555555555555556,
+            "item": 0.7777777777777778,
+            "abstIndevida": 0.07407407407407407,
+            "tokens": 7053.925925925926,
+            "tokensEntrada": 5650.666666666667,
+            "latencia": 14.006666666666664,
+            "buscou": 0
+          }
+        },
+        "rag_hybrid": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.9259259259259259,
+            "referenciadas": 0.9629629629629629,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 13589.62962962963,
+            "tokensEntrada": 9790.25925925926,
+            "latencia": 12.454592592592592,
+            "buscou": 0
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 1,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 12558.185185185184,
+            "tokensEntrada": 8498.703703703704,
+            "latencia": 13.044740740740743,
+            "buscou": 0
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.7407407407407407,
+            "auto": 0.8518518518518519,
+            "accAuto": 0.7777777777777778,
+            "acc": 0.6666666666666666,
+            "referenciadas": 0.9259259259259259,
+            "item": 0.8888888888888888,
+            "abstIndevida": 0.037037037037037035,
+            "tokens": 19457.074074074073,
+            "tokensEntrada": 12716.037037037036,
+            "latencia": 30.820851851851852,
+            "buscou": 0
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8888888888888888,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8888888888888888,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0.14285714285714285,
+            "tokens": 21707.444444444445,
+            "tokensEntrada": 15829.37037037037,
+            "latencia": 28.556333333333342,
+            "buscou": 0
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8518518518518519,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9259259259259259,
+            "acc": 0.8148148148148148,
+            "referenciadas": 0.9629629629629629,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 16950.037037037036,
+            "tokensEntrada": 11555.666666666666,
+            "latencia": 25.22829629629629,
+            "buscou": 0
+          }
+        },
+        "rag_search": {
+          "valores": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9629629629629629,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 0.9629629629629629,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 15294.777777777777,
+            "tokensEntrada": 11075.148148148148,
+            "latencia": 18.084407407407408,
+            "buscou": 3
+          },
+          "prazos": {
+            "n": 27,
+            "erros": 0,
+            "pre": 1,
+            "auto": 1,
+            "accAuto": 1,
+            "acc": 1,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 14270.148148148148,
+            "tokensEntrada": 10052.37037037037,
+            "latencia": 16.912037037037038,
+            "buscou": 1
+          },
+          "elegibilidade": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8518518518518519,
+            "auto": 0.8518518518518519,
+            "accAuto": 0.8518518518518519,
+            "acc": 0.8518518518518519,
+            "referenciadas": 0.9629629629629629,
+            "item": 0.8888888888888888,
+            "abstIndevida": 0.037037037037037035,
+            "tokens": 21856.037037037036,
+            "tokensEntrada": 15462.185185185184,
+            "latencia": 29.592148148148144,
+            "buscou": 7
+          },
+          "avaliação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.8518518518518519,
+            "auto": 0.8888888888888888,
+            "accAuto": 0.8888888888888888,
+            "acc": 0.8518518518518519,
+            "referenciadas": 1,
+            "item": 1,
+            "abstIndevida": 0.09523809523809523,
+            "tokens": 26349.555555555555,
+            "tokensEntrada": 20056.962962962964,
+            "latencia": 35.01733333333333,
+            "buscou": 11
+          },
+          "documentação": {
+            "n": 27,
+            "erros": 0,
+            "pre": 0.9259259259259259,
+            "auto": 0.9629629629629629,
+            "accAuto": 0.9629629629629629,
+            "acc": 0.9259259259259259,
+            "referenciadas": 0.9629629629629629,
+            "item": 1,
+            "abstIndevida": 0,
+            "tokens": 20678.37037037037,
+            "tokensEntrada": 14576.074074074075,
+            "latencia": 33.27125925925926,
+            "buscou": 4
+          }
+        }
+      },
+      "falhas": {
+        "full_context": [
+          [
+            "q07-reg",
+            "q09-agr",
+            "q10-tec",
+            "q12-reg",
+            "q12-tec"
+          ],
+          [
+            "q08-tec",
+            "q09-tec",
+            "q09-agr",
+            "q12-tec",
+            "q15-agr"
+          ],
+          [
+            "q03-tec",
+            "q08-reg",
+            "q09-tec",
+            "q09-agr"
+          ]
+        ],
+        "rag_dense": [
+          [
+            "q03-tec",
+            "q03-agr",
+            "q07-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-reg",
+            "q09-tec",
+            "q10-reg",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ],
+          [
+            "q03-agr",
+            "q06-agr",
+            "q07-reg",
+            "q07-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-tec",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ],
+          [
+            "q03-tec",
+            "q03-agr",
+            "q07-agr",
+            "q08-reg",
+            "q08-tec",
+            "q08-agr",
+            "q09-reg",
+            "q09-tec",
+            "q09-agr",
+            "q11-reg",
+            "q12-tec",
+            "q13-agr",
+            "q14-agr"
+          ]
+        ],
+        "rag_hybrid": [
+          [
+            "q08-reg",
+            "q08-tec",
+            "q09-tec",
+            "q12-tec",
+            "q15-agr"
+          ],
+          [
+            "q08-tec",
+            "q09-tec",
+            "q09-agr",
+            "q12-tec",
+            "q13-reg",
+            "q13-agr",
+            "q14-reg"
+          ],
+          [
+            "q03-agr",
+            "q09-reg",
+            "q12-tec"
+          ]
+        ],
+        "rag_search": [
+          [
+            "q08-tec",
+            "q09-agr",
+            "q12-tec",
+            "q15-agr"
+          ],
+          [
+            "q03-tec",
+            "q08-tec",
+            "q09-tec",
+            "q10-tec",
+            "q12-tec",
+            "q13-agr"
+          ],
+          [
+            "q12-tec"
+          ]
+        ]
+      },
+      "editais": [
+        {
+          "id": "01M2G1A7KCXFQJQJXERZ4SY0DQ",
+          "nome": "Subvenção Regional (teste)"
+        },
+        {
+          "id": "01M2GPEEZYWAR0H9F3CAEZGNNV",
+          "nome": "MIB R2 — Tecnologias Digitais"
+        },
+        {
+          "id": "01M2GPEF1KF2Y84EMZD3MYW4P4",
+          "nome": "Agricultura Familiar para ICTs 2026"
+        }
+      ]
+    }
+  }
+}
